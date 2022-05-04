@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size : 62.5%  ;
+    --green: #08AA83;
+    --linear: linear-gradient(195.96deg, #32b199 -122.01%, #21ad8d -8.36%, #08AA83 98.4%);
+    --white:#FAFAFA;
+    --red: #E83F5B;
+    --light-green: #d6fff8;
+    --blue: #32b199;
+    --background: #FBFCFF;
+    --overlay: #040911;
+    --icons-details: #32b199;
+    --grey-dark: #4D5E77;
+    --grey-very-dark: #4F4D4D;
+    --grey-blue: #A1B2CD;
+    --grey-medium: #eaecf2;;
+    --grey-light: #E5EAF1;
+    --hover-blue:#5699FF;
+    --hover-red: #EA4B65;
+    --hover-grey: #8794A7;
+    --back-modal: rgb(4,9,17);
+    
+    /* 1rem = 16px (User Agent) */
+
+  
+    
+    /* Setando 1 rem = 10px*/   
+}
+
+body{
+    height: 100vh;
+    background: var(--background);
+    display: flex;
+
+}
+
+ 
+.hello{
+    font-weight: 800;
+    color: var(--grey-very-dark);
+    font-family: 'Poppins';
+    font-size: 4.6rem;
+}
+
+.techers{
+    font-weight: 800;
+    color: var(--green)
+
+}
+body, button, input, textarea{
+    font-size: clamp(14px, 1.6rem, 2vw);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content{
+    width: 100%;
+    margin: 0 auto;
+}
+.sr-only{
+    position: absolute;
+    height: 1px;
+    width: 2px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0,0,0,0);
+    white-space: nowrap;
+    border-width:0;
+
+}
+
+input, button , .button {
+    border-radius: .8rem;
+    height: 5rem;
+
+}
+
+button , .button{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    line-height: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+    transition: filter .2s;
+}
+
+button:hover , .button:hover{
+    filter: brightness(1.2);
+   
+}
+
+button > img , .button > img {
+    margin-right: 1rem;
+    width: 2rem;
+}
+
+button.outlined , .button.outlined{
+    background: var(--white);
+    color: var(--blue);
+    border: .2rem solid var(--blue)
+}
+
+input, button, .button{
+    width: 100%;
+    margin-bottom: 1.8rem;
+}
+
+button.red , .button.red {
+
+    background: var(--red);
+    color: var(--white)
+
+}
+button .cancel, .button.cancel{
+
+    background: var(--grey-light);
+    color: var(--grey-dark)
+
+}
+
+/* HEADER */ 
+.content header{
+    width: 80%;
+    margin:  3.5rem auto;
+}
+
+.content header img{
+    width: 16.7rem;
+    
+}

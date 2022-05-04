@@ -1,0 +1,103 @@
+html{
+    font-size: 65%;
+    
+}
+
+svg {
+    width: 100vw;
+    height: 96vh
+}
+.content{
+    
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 0rem 1fr;
+
+    grid-template-areas:
+    'header header'
+    'left right'
+
+}
+
+header{
+    grid-area: header;
+}
+
+
+ 
+
+main{
+    grid-area: right;
+    display: flex;
+    align-items: center;
+    margin-top: -12rem;
+}
+
+main .container{
+    width: min(36.3rem , 100%);
+    margin-left: 5rem;
+}
+
+main h2{
+    font-family: 'Poppins', sans-serif;
+    color: var(--green);
+    font-size: clamp(20px, 5vw, 2.8rem);
+    margin-bottom: 2.4rem;
+}
+
+
+input{
+    border: .2rem solid var(--grey-blue);
+    padding: 0 1.6rem;
+
+}
+
+.separator{
+    display: flex;
+    align-items: center;
+    margin: 4rem 0;
+
+
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: var(--grey-blue);
+}
+
+.ou{
+    padding: 1.35rem;
+    font-family: 'poppins';
+    font-weight: 400;
+    line-height: 0;
+    color: var(--grey-blue)
+}
+
+
+.ball{
+    background: var(--linear);
+    position: fixed;
+    clip-path: circle(50% at 50% 50%);
+    opacity: .1;
+    
+}
+.ball.top{
+    width: 63.3rem;
+    height: 63.3rem;
+    top: -45rem;
+    right: -35rem;
+}
+
+.criar-sala{
+    margin-top: -22rem;
+}
+
+.footer{
+    width: 100vw;
+    height: 50px;
+    background-image: linear-gradient( 0deg , #25C8A1, white);
+    position: absolute;
+    bottom:0
+   
+}

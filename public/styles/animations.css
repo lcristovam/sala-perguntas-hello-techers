@@ -1,0 +1,448 @@
+
+
+
+#Elipse1{  
+  animation: show1 5s ease  infinite;
+  opacity: 0;
+  transition: 1s;
+}
+
+#Elipse2{
+  animation: show2 2.8s ease  infinite;
+  opacity: 0;
+  transition: 1s;
+}
+
+#Elipse3{
+  animation: show3 5s ease  infinite;
+  opacity: 0;
+  transition: 1s;
+}
+
+#Elipse4{
+  animation: show4 2.8s ease  infinite;
+  opacity: 0;
+  transition: 1s;
+}
+
+#Elipse5{
+  animation: show5 3.5s ease  infinite;
+  opacity: 0;
+  transition: 1s;
+
+}
+#Elipse6{
+  animation: show6 3.5s ease  infinite;
+  opacity: 0;
+  transition: 1s;
+
+}
+#Elipse7{
+  animation: show7 4.5s ease  infinite;
+  opacity: 0;
+  transition: 1s;
+
+}
+
+
+@keyframes show1{
+    0%{
+      transform: translateY(120px);
+      opacity:0;
+      
+      
+    }
+    50%{
+   
+      opacity: 1 ;
+     
+      
+    }
+    70%{
+     
+      opacity: 0.7 ;
+     
+      
+    }
+    90%{
+     
+      opacity: 0.6 ;
+    
+     
+      
+    }
+    91%{
+     
+      opacity: 0.5 ;
+     }
+     92%{
+     
+      opacity: 0.4 ;
+     }
+     93%{
+     
+      opacity: 0.3 ;
+     }
+     94%{
+     
+      opacity: 0.2 ;
+     }
+     95%{
+     
+      opacity: 0.1 ;
+     }
+
+    100%{
+      
+     
+      transform: translateY(0);
+      
+     
+      
+    }
+
+}
+
+@keyframes show2{
+  0%{
+    transform: translateY(130px);
+    opacity:0;
+    
+    
+  }
+
+  50%{
+   
+    opacity: 1 ;
+   
+    
+  }
+  70%{
+   
+    opacity: 0.7 ;
+   
+    
+  }
+  90%{
+   
+    opacity: 0.6 ;
+  
+   
+    
+  }
+  91%{
+   
+    opacity: 0.5 ;
+   }
+   92%{
+   
+    opacity: 0.4 ;
+   }
+   93%{
+   
+    opacity: 0.3 ;
+   }
+   94%{
+   
+    opacity: 0.2 ;
+   }
+   95%{
+   
+    opacity: 0.1 ;
+   }
+  100%{
+    
+    
+    transform: translateY(0);
+ 
+    
+  }
+
+}
+
+@keyframes show3{
+  0%{
+    transform: translateY(100px);
+    opacity:0;
+    
+    
+  }
+
+  50%{
+   
+    opacity: 1 ;
+   
+    
+  }
+  70%{
+   
+    opacity: 0.7 ;
+   
+    
+  
+  }
+  90%{
+   
+    opacity: 0 ;
+    transition: 1s;
+    
+  }
+  100%{
+    
+  
+    transform: translateY(0);
+    
+   
+    
+  }
+
+}
+@keyframes show4{
+  0%{
+    transform: translateY(150px);
+    opacity:0;
+    
+    
+  }
+  50%{
+   
+    opacity: 1 ;
+   
+    
+  }
+  70%{
+   
+    opacity: 0.7 ;
+   
+    
+  }
+  90%{
+   
+    opacity: 0.6 ;
+  
+   
+    
+  }
+  91%{
+   
+    opacity: 0.5 ;
+   }
+   92%{
+   
+    opacity: 0.4 ;
+   }
+   93%{
+   
+    opacity: 0.3 ;
+   }
+   94%{
+   
+    opacity: 0.2 ;
+   }
+   95%{
+   
+    opacity: 0.1 ;
+   }
+  100%{
+    
+    
+    transform: translateY(0);
+    
+   
+    
+  }
+
+}
+@keyframes show5{
+  0%{
+    transform: translateY(180px);
+    opacity:0;
+    
+    
+  }
+  50%{
+   
+    opacity: 1 ;
+   
+    
+  }
+  70%{
+   
+    opacity: 0.7 ;
+   
+    
+  }
+  90%{
+   
+    opacity: 0.6 ;
+  
+   
+    
+  }
+  91%{
+   
+    opacity: 0.5 ;
+   }
+   92%{
+   
+    opacity: 0.4 ;
+   }
+   93%{
+   
+    opacity: 0.3 ;
+   }
+   94%{
+   
+    opacity: 0.2 ;
+   }
+   95%{
+   
+    opacity: 0.1 ;
+   }
+  100%{
+    
+    
+    
+  }
+
+}
+@keyframes show6{
+  0%{
+    transform: translateY(100px);
+    opacity:0;
+    
+    
+  }
+
+  50%{
+   
+    opacity: 1 ;
+   
+    
+  }
+  70%{
+   
+    opacity: 0.7 ;
+   
+    
+  }
+  90%{
+   
+    opacity: 0.6 ;
+  
+   
+    
+  }
+  91%{
+   
+    opacity: 0.5 ;
+   }
+   92%{
+   
+    opacity: 0.4 ;
+   }
+   93%{
+   
+    opacity: 0.3 ;
+   }
+   94%{
+   
+    opacity: 0.2 ;
+   }
+   95%{
+   
+    opacity: 0.1 ;
+   }
+  100%{
+    
+  
+    transform: translateY(0);
+   
+    
+  }
+
+}
+@keyframes show7{
+  0%{
+    transform: translateY(200px);
+    opacity:0;
+    
+    
+  }
+
+  50%{
+   
+    opacity: 1 ;
+   
+    
+  }
+  70%{
+   
+    opacity: 0.7 ;
+   
+    
+  }
+  90%{
+   
+    opacity: 0.6 ;
+  
+   
+    
+  }
+  91%{
+   
+    opacity: 0.5 ;
+   }
+   92%{
+   
+    opacity: 0.4 ;
+   }
+   93%{
+   
+    opacity: 0.3 ;
+   }
+   94%{
+   
+    opacity: 0.2 ;
+   }
+   95%{
+   
+    opacity: 0.1 ;
+   }
+  100%{
+    
+   
+    transform: translateY(0);
+   
+    
+  }
+
+}
+
+#techer1{
+
+  animation: bird 2s  infinite alternate;
+  
+
+
+} 
+
+@keyframes bird {
+
+  0%{
+    transform: translate(-30px, -30px);
+    
+  }
+
+  50%{
+    transform: translate(-0px, -0px);
+    
+  }
+
+
+  100%{
+    transform: translate(60px, -40px)
+   
+
+  }
+}
